@@ -3,10 +3,14 @@
 Local Data Lake environment using Docker containers for automated data ingestion with synthetic records.
 
 ## Technologies
+- **Python 3.12+**: Automation and ingestion scripting.
+- **Docker & Docker Compose**: Service orchestration.
+- **MinIO**: S3-compatible Object Storage (Data Lake).
+- **Pandas & Faker**: Data manipulation and Mock Data generation.
+- **Boto3**: AWS SDK for Python to interact with MinIO.
 
-- Python 3.12+, Docker, Docker Compose
-- MinIO (S3-compatible storage)
-- Pandas, Faker, Boto3
+## Architecture
+[Python Script] --(Generates Data)--> [Pandas DataFrame] --(Streaming Upload)--> [MinIO Bucket 'raw-data']
 
 ## Getting Started
 
