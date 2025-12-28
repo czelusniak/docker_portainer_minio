@@ -2,14 +2,14 @@
 
 This project demonstrates a local **Data Lake** environment using Docker containers. It focuses on Infrastructure as Code (IaC) principles and automated data ingestion using synthetic records.
 
-## 🛠 Technologies
+## Technologies
 - **Python 3.12+**: Automation and ingestion scripting.
 - **Docker & Docker Compose**: Service orchestration.
 - **MinIO**: S3-compatible Object Storage (Data Lake).
 - **Pandas & Faker**: Data manipulation and Mock Data generation.
 - **Boto3**: AWS SDK for Python to interact with MinIO.
 
-## 🏗 Architecture
+## Architecture
 [Python Script] --(Generates Data)--> [Pandas DataFrame] --(Streaming Upload)--> [MinIO Bucket 'raw-data']
 
 ## 🚀 Getting Started
