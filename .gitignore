@@ -1,0 +1,6 @@
+# Ignorar pastas de dados do Portainer e MinIO
+portainer_data/
+minio-data/
+
+# Ignorar arquivos de sistema e ocultos do Docker
+.env
